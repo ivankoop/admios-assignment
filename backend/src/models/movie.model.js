@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const { toJSON, paginate } = require('./plugins');
 
+const genres = ['Horror', 'Science Fiction', 'Drama', 'Comedy', 'Action'];
+
 const castSchema = mongoose.Schema({
   name: {
     type: String,
@@ -46,3 +48,4 @@ movieSchema.plugin(paginate);
 const Movie = mongoose.model('Movie', movieSchema);
 
 module.exports = Movie;
+module.exports.genres = genres;
