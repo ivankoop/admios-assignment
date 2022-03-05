@@ -1,0 +1,10 @@
+node_modules
+/build
+.env
+.eslintcache
+build-storybook.log
+yarn-error.log
+/storybook-static
+/storybook-static.zip
+/.vs/*
+/.vscode/*
