@@ -1,0 +1,45 @@
+.movie-card {
+  background-color: $white;
+  box-shadow: 0 0 20px -5px #c9ced6;
+  width: 350px;
+  height: 417px;
+  display: flex;
+  flex-direction: column;
+  padding: $m;
+  cursor: pointer;
+
+  &__img {
+    width: 100%;
+    max-height: 160px;
+    object-fit: contain;
+    margin-top: $xs;
+  }
+
+  &__genre {
+    margin-top: $l;
+    font-size: 1em; // TODO: move to scss variable
+    background-color: #ff8c00; // TODO: move to scss variable
+    color: $white;
+    width: max-content;
+    padding-left: $xs;
+    padding-right: $xs;
+    padding-top: $xxxs;
+    padding-bottom: $xxxs;
+    border-radius: $xxs;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  &__name {
+    font-family: "DM Sans", sans-serif;
+    margin-top: $xxs;
+    font-size: 1.25em; // TODO: move to scss variable
+    color: #0a1f44; // TODO: move to scss variable
+  }
+
+  &__description {
+    font-family: "DM Sans", sans-serif;
+    color: #596780; // TODO: move to scss variable
+    font-size: 1em; // TODO: move to scss variable
+    margin-top: $xxs;
+  }
+}

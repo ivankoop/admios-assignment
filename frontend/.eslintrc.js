@@ -72,6 +72,8 @@ module.exports = {
     'import/no-cycle': 'off',
     'storybook/prefer-pascal-case': 'off',
     'react/no-array-index-key': 'off',
+    'react/require-default-props': 'off',
+    'no-underscore-dangle': 'off',
   },
   settings: {
     'import/resolver': {

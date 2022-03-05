@@ -1,14 +1,20 @@
 // RESET
 @import "./reset.scss";
 
+// METRICS
+@import "./metrics.scss";
+
+// FONTS
+@import "./fonts.scss";
+
 // COLORS
 @import "./colors.scss";
 
 // PAGES
 @import "./pages/index.scss";
 
+// COMPONENTS
+@import "./components/index.scss";
+
 // SHARED
 // @import "./shared/index.scss";
-
-// COMPONENTS
-// @import "./components/index.scss";

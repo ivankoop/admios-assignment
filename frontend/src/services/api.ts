@@ -1,17 +1,31 @@
-import axios from 'axios';
+import useSWR from 'swr';
+import { Movie } from '../models';
+// @ts-ignore
+const fetcher = (...args: any[]) => fetch(...args).then((res) => res.json());
 
-export type MockType = Record<string, unknown> | Array<Record<string, unknown>>;
+const apiUrl = process.env.REACT_APP_API_URL;
 
-export interface APIRequestArgs {
-  url: string;
-  payload?: unknown;
-  params?: unknown;
-  mock?: MockType;
+// Ideally api services should have an adaptor to look for authentication and formatting purposes.
+// I just don't have enough time to work on this assignment
+
+export type MoviesResponse = {
+    movies: {
+      limit: number,
+      page: number,
+      results: Array<Movie>,
+      totalPages: number,
+      totalResults: number,
+    },
+    isLoading: boolean,
+    isError: string
 }
 
-// movies api calls
-const getMovies = async ({ payload }: APIRequestArgs) => axios.get('url', { params: payload });
+export function useMovies(): MoviesResponse {
+  const { data, error } = useSWR(`${apiUrl}/movies?sortBy=genre:desc,name:desc`, fetcher);
 
-export const api = {
-  getMovies,
-};
+  return {
+    movies: data,
+    isLoading: !error && !data,
+    isError: error,
+  };
+}

@@ -1,2 +1,18 @@
 .home-page {
+  margin-top: $xxxl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-family: "DM Sans", sans-serif;
+    color: #0a1f44;
+  }
+
+  &__movies-container {
+    margin-top: $xl;
+    gap: $xl;
+    display: flex;
+    justify-content: center;
+  }
 }

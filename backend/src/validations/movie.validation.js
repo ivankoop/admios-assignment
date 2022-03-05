@@ -10,6 +10,7 @@ const createMovie = {
     genre: Joi.string().valid(...genres),
     cast: Joi.array().items({ name: Joi.string(), lastName: Joi.string() }),
     releaseDate: Joi.date(),
+    imageUrl: Joi.string(),
   }),
 };
 

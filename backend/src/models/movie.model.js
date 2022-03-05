@@ -36,6 +36,9 @@ const movieSchema = mongoose.Schema({
   releaseDate: {
     type: Date,
   },
+  imageUrl: {
+    type: String,
+  },
 });
 
 // add plugin that converts mongoose to json
