@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "6222136a264d83002fe56092"
+  },
+  "role": "user",
+  "isEmailVerified": false,
+  "name": "Ivan Koop",
+  "email": "ivankoop3@gmail.com",
+  "password": "$2a$08$BLry.fQmHIfIPAL0DGCwy.GYxRtR5.6Ps6Kl0RTREpXu23r1/.2yu",
+  "createdAt": {
+    "$date": "2022-03-04T13:26:02.336Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-04T13:26:02.336Z"
+  },
+  "__v": 0
+}]

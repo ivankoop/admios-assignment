@@ -26,18 +26,15 @@
     padding-top: $xxxs;
     padding-bottom: $xxxs;
     border-radius: $xxs;
-    font-family: "DM Sans", sans-serif;
   }
 
   &__name {
-    font-family: "DM Sans", sans-serif;
     margin-top: $xxs;
     font-size: 1.25em; // TODO: move to scss variable
     color: #0a1f44; // TODO: move to scss variable
   }
 
   &__description {
-    font-family: "DM Sans", sans-serif;
     color: #596780; // TODO: move to scss variable
     font-size: 1em; // TODO: move to scss variable
     margin-top: $xxs;

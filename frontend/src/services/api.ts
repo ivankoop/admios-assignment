@@ -1,5 +1,5 @@
 import useSWR from 'swr';
-import { Movie } from '../models';
+import { Movie, Genre } from '../models';
 // @ts-ignore
 const fetcher = (...args: any[]) => fetch(...args).then((res) => res.json());
 
@@ -20,8 +20,8 @@ export type MoviesResponse = {
     isError: string
 }
 
-export function useMovies(): MoviesResponse {
-  const { data, error } = useSWR(`${apiUrl}/movies?sortBy=genre:desc,name:desc`, fetcher);
+export function useMovies(genre: Genre): MoviesResponse {
+  const { data, error } = useSWR(`${apiUrl}/movies?sortBy=name:desc&genre=${genre}`, fetcher);
 
   return {
     movies: data,

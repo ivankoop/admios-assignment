@@ -1,3 +1,4 @@
 import Movie from './movie';
+import Genre from './genre';
 
-export type { Movie };
+export type { Movie, Genre };

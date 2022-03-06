@@ -1,0 +1,28 @@
+.genre-section {
+  display: flex;
+  flex-direction: column;
+
+  &__divider {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  &__divider-line {
+    flex: 1;
+    height: 2px;
+    background-color: #0a1f44;
+  }
+
+  h1 {
+    color: #0a1f44; // TODO: move to scss variable
+    margin-left: $m;
+    margin-right: $m;
+  }
+
+  &__movies-list {
+    display: flex;
+    gap: $xl;
+    margin-top: $l;
+  }
+}

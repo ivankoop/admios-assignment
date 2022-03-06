@@ -17,3 +17,28 @@ If you have any question, please send us an email to [codesubmit@admios-sa.com](
 Good Luck!
 
 *The Admios Hiring Team*
+
+## Instructions
+
+
+### Backend
+```
+cp .env.example .env
+cd /backend
+yarn install
+yarn docker:dev
+```
+
+### Frontend
+```
+cp .env.example .env
+cd /frontend
+yarn install
+yarn start
+```
+
+### Storybooks
+```
+cd /frontend
+yarn storybook
+```

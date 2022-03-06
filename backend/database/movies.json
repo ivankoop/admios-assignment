@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "622394cd0f98b40063050c9d"
+  },
+  "name": "Harry Potter and the Philosopher's Stone",
+  "rating": 5,
+  "imageUrl": "https://images.moviesanywhere.com/143cdb987186a1c8f94d4f18de211216/fdea56fa-2703-47c1-8da8-70fc5382e1ea.jpg",
+  "description": "Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and is invited to study at Hogwarts. Even as he escapes a dreary life and enters a world of magic, he finds trouble awaiting him.",
+  "genre": "Science Fiction",
+  "releaseDate": {
+    "$date": "2021-01-01T00:00:00Z"
+  },
+  "cast": [
+    {
+      "_id": {
+        "$oid": "622394cd0f98b40063050c9e"
+      },
+      "name": "Dan",
+      "lastName": "Radcliffe"
+    },
+    {
+      "_id": {
+        "$oid": "622394cd0f98b40063050c9f"
+      },
+      "name": "Rupert",
+      "lastName": "Grint"
+    },
+    {
+      "_id": {
+        "$oid": "622394cd0f98b40063050ca0"
+      },
+      "name": "Emma",
+      "lastName": "Watson"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6223957b0f98b40063050ca3"
+  },
+  "name": "The Conjuring",
+  "rating": 4,
+  "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_.jpg",
+  "description": "The Perron family moves into a farmhouse where they experience paranormal phenomena. They consult demonologists, Ed and Lorraine Warren, to help them get rid of the evil entity haunting them.",
+  "genre": "Horror",
+  "releaseDate": {
+    "$date": "2013-01-01T00:00:00Z"
+  },
+  "cast": [
+    {
+      "_id": {
+        "$oid": "6223957b0f98b40063050ca4"
+      },
+      "name": "Vera",
+      "lastName": "Farmiga"
+    },
+    {
+      "_id": {
+        "$oid": "6223957b0f98b40063050ca5"
+      },
+      "name": "Patrick",
+      "lastName": "Wilson"
+    },
+    {
+      "_id": {
+        "$oid": "6223957b0f98b40063050ca6"
+      },
+      "name": "Joey",
+      "lastName": "King"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622396160f98b40063050ca9"
+  },
+  "name": "The Hangover",
+  "rating": 3,
+  "imageUrl": "https://m.media-amazon.com/images/M/MV5BNGQwZjg5YmYtY2VkNC00NzliLTljYTctNzI5NmU3MjE2ODQzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+  "description": "Doug and his three best men go to Las Vegas to celebrate his bachelor party. However, the three best men wake up the next day with a hangover and realise that Doug is missing.",
+  "genre": "Comedy",
+  "releaseDate": {
+    "$date": "2013-01-01T00:00:00Z"
+  },
+  "cast": [
+    {
+      "_id": {
+        "$oid": "622396160f98b40063050caa"
+      },
+      "name": "Bradley",
+      "lastName": "Cooper"
+    },
+    {
+      "_id": {
+        "$oid": "622396160f98b40063050cab"
+      },
+      "name": "Ed",
+      "lastName": "Helms"
+    },
+    {
+      "_id": {
+        "$oid": "622396160f98b40063050cac"
+      },
+      "name": "Todd",
+      "lastName": "Phillips"
+    }
+  ],
+  "__v": 0
+}]
